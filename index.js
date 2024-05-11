@@ -189,7 +189,7 @@ function getWeather(response) {
 }
 
 let apiKey = "84a3odd1fb91cb0984343bb2db506t7f";
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Kharkiv&key=${apiKey}&units=metric`;
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=chennai&key=${apiKey}&units=metric`;
 axios.get(`${apiUrl}`).then(getWeather);
 
 let form = document.querySelector("#search-form");
